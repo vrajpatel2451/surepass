@@ -22,11 +22,11 @@ it("performs the public GST verification flow over HTTP", async () => {
     fetch,
   });
 
-  await expect(sdk.verifyGstin("24AALCD9657Q1ZO")).resolves.toEqual({
+  await expect(sdk.verifyGstin("00GSGST0000G0ST")).resolves.toEqual({
     legal_name: "Legal Name",
     business_name: "Business Name",
     address: "Ahmedabad",
-    gstin: "24AALCD9657Q1ZO",
+    gstin: "00GSGST0000G0ST",
     constitution_of_business: "Private Limited Company",
     pan_number: "AAPAN0000P",
   });

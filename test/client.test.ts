@@ -28,7 +28,7 @@ describe("Surepass", () => {
       legal_name: "Legal Name",
       business_name: "Business Name",
       address: "Ahmedabad",
-      gstin: "24AALCD9657Q1ZO",
+      gstin: "00GSGST0000G0ST",
       constitution_of_business: "Private Limited Company",
       pan_number: "AAPAN0000P",
     });
