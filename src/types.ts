@@ -10,6 +10,7 @@ export interface GstVerification {
   address: string;
   gstin: string;
   constitution_of_business: string;
+  pan_number: string;
 }
 
 export interface SurepassErrorBody {
