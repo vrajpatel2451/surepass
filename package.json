@@ -1,16 +1,16 @@
 {
-  "name": "@vrajpatel2451/surepass-sdk",
+  "name": "@vrajpatel2451/surepass",
   "version": "0.1.0",
   "description": "Minimal type-safe Surepass GST verification SDK for Node.js",
   "license": "MIT",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vrajpatel2451/surepass-sdk"
+    "url": "https://github.com/vrajpatel2451/surepass"
   },
-  "homepage": "https://github.com/vrajpatel2451/surepass-sdk#readme",
+  "homepage": "https://github.com/vrajpatel2451/surepass#readme",
   "bugs": {
-    "url": "https://github.com/vrajpatel2451/surepass-sdk/issues"
+    "url": "https://github.com/vrajpatel2451/surepass/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -23,9 +23,17 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md", "LICENSE"],
-  "publishConfig": { "access": "public" },
-  "engines": { "node": ">=18" },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "lint": "eslint .",
@@ -42,5 +50,12 @@
     "typescript-eslint": "^8.55.0",
     "vitest": "^4.1.10"
   },
-  "keywords": ["surepass", "gst", "gstin", "verification", "typescript", "sdk"]
+  "keywords": [
+    "surepass",
+    "gst",
+    "gstin",
+    "verification",
+    "typescript",
+    "sdk"
+  ]
 }
